@@ -1,0 +1,48 @@
+// Main color
+$primary:       #f06292;
+$p_light:       #ff94c2;
+$p_dark:        #ba2d65;
+$secondery:     #546e7a;
+$s_light:       #819ca9;
+$s_dark:        #29434e;
+
+$border-color:  #cccccc;
+
+// Colours
+$colors: (
+    "primary":      $primary,
+    "secondery":    $secondery,
+    "blue":         #1919e6,
+    "red":          #e61919,
+    "yellow":       #e6e619,
+    "green":        #19e635,
+    "orange":       #ffa600,
+    "purple":       #9900ff,
+    "gray":         #808080,
+    "black":        black,
+    "white":        white,
+);
+
+
+//Text Color
+$text-main:     #111111;
+$text-second:   #555555;
+
+// Spacing
+$base-padding:  15px;
+$base-margin:   15px;
+
+//Border
+$border-width:  1px;
+$border-radus:  10px;
+$borders: (
+    'solid': solid,
+    'dashed': dashed,
+);
+
+//Font
+$base-font-size: 1rem;
+$sm-font-size: $base-font-size * 0.75;
+$lg-font-size: $base-font-size * 1.5;
+$xl-font-size: $base-font-size * 2
+

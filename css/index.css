@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+body {
+  line-height: 1;
+}
+.text-primary {
+  color: #f06292;
+}
+
+.background-primary {
+  background-color: #f06292;
+}
+
+.background-primary-light-1 {
+  background-color: #f16d9a;
+}
+.background-primary-light-1:hover {
+  background-color: #f278a1;
+}
+
+.background-primary-light-2 {
+  background-color: #f278a1;
+}
+.background-primary-light-2:hover {
+  background-color: #f48eb1;
+}
+
+.background-primary-light-3 {
+  background-color: #f383a9;
+}
+.background-primary-light-3:hover {
+  background-color: #f6a4c0;
+}
+
+.background-primary-light-4 {
+  background-color: #f48eb1;
+}
+.background-primary-light-4:hover {
+  background-color: #f8bacf;
+}
+
+.background-primary-light-5 {
+  background-color: #f599b8;
+}
+.background-primary-light-5:hover {
+  background-color: #fbd0de;
+}
+
+.text-secondery {
+  color: #546e7a;
+}
+
+.background-secondery {
+  background-color: #546e7a;
+}
+
+.text-blue {
+  color: #1919e6;
+}
+
+.background-blue {
+  background-color: #1919e6;
+}
+
+.text-red {
+  color: #e61919;
+}
+
+.background-red {
+  background-color: #e61919;
+}
+
+.text-white {
+  color: white;
+}
+
+.card {
+  display: block;
+  border: 1px dashed #cccccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+.card .card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111111;
+  font-size: 1.5rem;
+}
+.card .card-body {
+  padding: 3px;
+  border-top: 1px solid #cccccc;
+  font-size: 0.75rem;
+  color: #f06292;
+}
+
+.pl-2 {
+  padding-left: 30px;
+}

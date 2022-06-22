@@ -1,0 +1,19 @@
+@mixin btnColor($bg-value: $primary, $color-value: $secondery) {
+    border: none;
+    border-radius: $border-radus;
+    padding: $base-padding;
+    font-size: $sm-font-size;
+    font-weight: bold;
+    background-color: $bg-value;
+    color: $color-value;
+}
+
+@each $key, $value in $colors {
+    .btn-#{$key} {
+        @include btnColor($value, black);
+    }
+}
+
+.btn {
+    @include btnColor;
+}
