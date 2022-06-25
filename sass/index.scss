@@ -1,12 +1,13 @@
 //Variables & Function
 @import 'variables';
+@import 'functions';
 
-//Base & Layout
+// //Base & Layout
 @import 'bace';
 @import 'breakpoint';
 @import 'grid';
 
-// Colors
+// // Colors
 @import 'colors';
 
 //Components (Button, Card, Navbar)
@@ -14,5 +15,5 @@
 @import 'components/buttons';
 @import 'components/navbar';
 
-//Utlilties (Margin, Padding, Opasity)
+// //Utlilties (Margin, Padding, Opasity)
 @import 'utilities';

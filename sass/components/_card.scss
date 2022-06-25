@@ -15,6 +15,7 @@
         padding: math.div($base-padding, 5);
         border-top: $border-width solid $border-color;
         font-size: $sm-font-size;
-        color: map-get($colors, primary);
+        // color: map-get($colors, primary);
+        
     }
 }
