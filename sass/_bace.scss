@@ -38,3 +38,20 @@ input{
 }
 
 
+.main {
+    clear: both;
+    margin: 0 auto;
+    #{&}-title {
+        font-size: $lg-font-size;
+    }
+    #{&}-body {
+        background-color: map-get($colors, primary );
+    }
+}
+
+.star {
+    color: $secondery;
+    &--last {
+        margin: auto;
+    }
+}
