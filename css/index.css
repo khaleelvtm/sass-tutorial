@@ -1994,3 +1994,31 @@ input {
 .op-50 {
   opacity: 0.5;
 }
+
+.grid-container {
+  background-color: azure;
+  max-width: 990px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 150px 200px;
+  gap: 10px;
+}
+.grid-container .col {
+  background-color: beige;
+  border: 1px solid #c6c6aa;
+  text-align: center;
+  padding: 25px;
+}
+.grid-container .col:nth-child(1) {
+  grid-column: 1/span 2;
+}
+.grid-container .col:nth-child(2) {
+  grid-column: span 3;
+}
+.grid-container .col:nth-child(4) {
+  grid-column: 2/span 3;
+}
+.grid-container .col:nth-child(5) {
+  grid-column: 1/span 3;
+}
